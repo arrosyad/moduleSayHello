@@ -1,0 +1,36 @@
+From 549c6473f7e0dd9140a008c24f772dd44cb188cc Mon Sep 17 00:00:00 2001
+From: arrosyad fikri <arrosyad.fikri@gmail.com>
+Date: Thu, 21 Oct 2021 11:20:09 +0700
+Subject: [PATCH] first commit
+
+Signed-off-by: arrosyad fikri <arrosyad.fikri@gmail.com>
+---
+ go-hello.go | 5 +++++
+ go.mod      | 3 +++
+ 2 files changed, 8 insertions(+)
+ create mode 100644 go-hello.go
+ create mode 100644 go.mod
+
+diff --git a/go-hello.go b/go-hello.go
+new file mode 100644
+index 0000000..745b512
+--- /dev/null
++++ b/go-hello.go
+@@ -0,0 +1,5 @@
++package say_hello
++
++func SayHello() string{
++	return "Hello guys"
++}
+diff --git a/go.mod b/go.mod
+new file mode 100644
+index 0000000..1143cb3
+--- /dev/null
++++ b/go.mod
+@@ -0,0 +1,3 @@
++module ithub.com/arrosyad/moduleSayHello
++
++go 1.15
+-- 
+2.32.0.windows.2
+
